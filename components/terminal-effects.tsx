@@ -16,7 +16,7 @@ interface Circle {
 export function TerminalEffects() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const circlesRef = useRef<Circle[]>([])
-  const animationRef = useRef<number>()
+  const animationRef = useRef<number | null>(null)
 
   const terminalChars = ["$", ">", "#", "~", "|", "-", "_", "*", "+", "=", "/", "\\", "[", "]", "{", "}"]
   const terminalColors = ["#00ff00", "#00cc00", "#009900", "#00ff41", "#39ff14", "#32cd32"]
