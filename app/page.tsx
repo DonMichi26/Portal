@@ -6,7 +6,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Github, Mail, Download, Menu, X } from "lucide-react"
+import { Github, Mail, Menu, X } from "lucide-react"
 import { TerminalEffects } from "@/components/terminal-effects"
 import { MatrixRain } from "@/components/matrix-rain"
 
